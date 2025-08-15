@@ -223,7 +223,7 @@ app.use(
         data = data.replace(
           /window\.location\.href(?=[^=]|={2,})/g,
           'ncd.href()',
-        ); // Exclude 'window.locaton.href=' but not 'window.locaton.href=='
+        ); // Exclude 'window.location.href=' but not 'window.location.href=='
       } else {
         // Assume HTML
         data = data
