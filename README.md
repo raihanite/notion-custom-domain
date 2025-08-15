@@ -12,7 +12,7 @@ Install dependencies:
 yarn
 ```
 
-Then deploy to Vercel with specifiying your public Notion page:
+Then deploy to Vercel with specifying your public Notion page:
 
 ```
 PAGE_URL=https://<your-domain>.notion.site/<Your-Page-ID> \
